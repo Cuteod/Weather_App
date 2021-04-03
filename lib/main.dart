@@ -6,7 +6,7 @@ import 'dart:convert';
 void main() => runApp(MaterialApp(
       title: "Weather App",
       home: Home(),
-      showdebugheader: false;
+      debugShowCheckedModeBanner: false,
     ));
 
 class Home extends StatefulWidget {
